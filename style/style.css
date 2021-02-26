@@ -1,0 +1,142 @@
+@import "./reset.css";
+
+body{
+padding-top: 5%;
+padding-bottom: 5%;
+overflow: hidden;
+padding-left: 15%;
+padding-right: 15%;
+background-color: red;
+/* background-image: url("../img/FUCKTOP-min.jpg"); */
+background-size: cover;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+} 
+
+.top_couture{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.bot{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+img{
+    height: 40vh;
+    z-index: 2;
+}
+
+.gare{
+    width: 50vw;
+}
+
+.img_gare{
+    object-fit: cover;
+    width: 100%;
+}
+
+.img_scale{
+    object-fit: inherit;
+    width: 100%;
+}
+
+img:hover{
+    transform: scale(1.1);
+    border: yellow solid 20px;
+    box-shadow: grey;
+    z-index: 1;
+}
+
+.collage_info{
+    width: 49%;
+}
+
+.hermes_info{
+    width: 49%;
+}
+
+.velour_couture{
+    width: 30%;
+}
+
+.soie_couture{
+    width: 30%;
+}
+
+.vareuse_couture{
+    width: 30%;
+}
+
+.yarn{
+    width: 23%;
+}
+
+.sp{
+    width: 48%;
+}
+
+.left_av{
+    display: flex;
+    justify-content: space-between;
+    height: 75%;
+    width: 49%;
+    margin-right: 2%;
+    /* border: solid red 1px; */
+}
+
+.right_av{
+    display: flex;
+    width: 49%;
+    justify-content: space-between;
+    height: 75%;
+    flex-wrap: wrap;
+    /* border: solid red 1px; */
+}
+
+.img_cagoule{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.sm_av{
+    /* border: yellowgreen solid 2px; */
+    margin-top: 1.5%;
+}
+
+.cagoule_av{
+    width: 100%;
+}
+
+.audiovisuel{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.left_ph{
+    display: flex;
+    height: 75vh;
+    width: 49%;
+    margin-right: 2%;
+}
+
+.right_ph{
+    display: flex;
+    width: 49%;
+    height: 75vh;
+    flex-wrap: wrap;
+}
+
+.collage::before{
+    box-shadow: grey 1px;
+    content: toto;
+}
