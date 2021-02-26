@@ -1,142 +1,143 @@
 @import "./reset.css";
+@import "./carrousel.css";
 
-body{
-padding-top: 5%;
-padding-bottom: 5%;
-overflow: hidden;
-padding-left: 15%;
-padding-right: 15%;
-/* background-color: red; */
-background-image: url("../img/FUCKTOP-min.jpg");
-background-size: cover;
+body {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+  padding-left: 15%;
+  padding-right: 15%;
+  /* background-color: red; */
+  background-image: url("../img/FUCKTOP-min.jpg");
+  background-size: cover;
 }
 
-.top{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 2%;
-} 
-
-.top_couture{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-bottom: 2%;
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2%;
 }
 
-.bot{
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
+.top_couture {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 2%;
 }
 
-img{
-    height: 40vh;
-    z-index: 2;
+.bot {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
 }
 
-.gare{
-    width: 50vw;
+img {
+  height: 40vh;
+  z-index: 2;
 }
 
-.img_gare{
-    object-fit: cover;
-    width: 100%;
+.gare {
+  width: 50vw;
 }
 
-.img_scale{
-    object-fit: inherit;
-    width: 100%;
+.img_gare {
+  object-fit: cover;
+  width: 100%;
 }
 
-img:hover{
-    transform: scale(1.1);
-    border: yellow solid 20px;
-    box-shadow: grey;
-    z-index: 1;
+.img_scale {
+  object-fit: inherit;
+  width: 100%;
 }
 
-.collage_info{
-    width: 49%;
+img:hover {
+  transform: scale(1.1);
+  border: yellow solid 20px;
+  box-shadow: grey;
+  z-index: 1;
 }
 
-.hermes_info{
-    width: 49%;
+.collage_info {
+  width: 49%;
 }
 
-.velour_couture{
-    width: 30%;
+.hermes_info {
+  width: 49%;
 }
 
-.soie_couture{
-    width: 30%;
+.velour_couture {
+  width: 30%;
 }
 
-.vareuse_couture{
-    width: 30%;
+.soie_couture {
+  width: 30%;
 }
 
-.yarn{
-    width: 23%;
+.vareuse_couture {
+  width: 30%;
 }
 
-.sp{
-    width: 48%;
+.yarn {
+  width: 23%;
 }
 
-.left_av{
-    display: flex;
-    justify-content: space-between;
-    height: 75%;
-    width: 49%;
-    margin-right: 2%;
-    /* border: solid red 1px; */
+.sp {
+  width: 48%;
 }
 
-.right_av{
-    display: flex;
-    width: 49%;
-    justify-content: space-between;
-    height: 75%;
-    flex-wrap: wrap;
-    /* border: solid red 1px; */
+.left_av {
+  display: flex;
+  justify-content: space-between;
+  height: 75%;
+  width: 49%;
+  margin-right: 2%;
+  /* border: solid red 1px; */
 }
 
-.img_cagoule{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.right_av {
+  display: flex;
+  width: 49%;
+  justify-content: space-between;
+  height: 75%;
+  flex-wrap: wrap;
+  /* border: solid red 1px; */
 }
 
-.sm_av{
-    /* border: yellowgreen solid 2px; */
-    margin-top: 1.5%;
+.img_cagoule {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
-.cagoule_av{
-    width: 100%;
+.sm_av {
+  /* border: yellowgreen solid 2px; */
+  margin-top: 1.5%;
 }
 
-.audiovisuel{
-    display: flex;
-    flex-wrap: nowrap;
-}
-.left_ph{
-    display: flex;
-    height: 75vh;
-    width: 49%;
-    margin-right: 2%;
+.cagoule_av {
+  width: 100%;
 }
 
-.right_ph{
-    display: flex;
-    width: 49%;
-    height: 75vh;
-    flex-wrap: wrap;
+.audiovisuel {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.left_ph {
+  display: flex;
+  height: 75vh;
+  width: 49%;
+  margin-right: 2%;
 }
 
-.collage::before{
-    box-shadow: grey 1px;
-    content: toto;
+.right_ph {
+  display: flex;
+  width: 49%;
+  height: 75vh;
+  flex-wrap: wrap;
+}
+
+.collage::before {
+  box-shadow: grey 1px;
+  content: toto;
 }
