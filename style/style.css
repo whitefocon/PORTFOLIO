@@ -1,10 +1,11 @@
 @import "./reset.css";
 @import "./carrousel.css";
 
+
 body {
   padding-top: 5%;
   padding-bottom: 5%;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-left: 15%;
   padding-right: 15%;
   /* background-color: red; */
@@ -119,23 +120,7 @@ img:hover {
   width: 100%;
 }
 
-.audiovisuel {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.left_ph {
-  display: flex;
-  height: 75vh;
-  width: 49%;
-  margin-right: 2%;
-}
 
-.right_ph {
-  display: flex;
-  width: 49%;
-  height: 75vh;
-  flex-wrap: wrap;
-}
 
 .collage::before {
   box-shadow: grey 1px;
